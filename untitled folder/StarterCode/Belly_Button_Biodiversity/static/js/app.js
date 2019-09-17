@@ -1,10 +1,10 @@
 function buildMetadata(sample) {
 
   // @TODO: Complete the following function that builds the metadata panel
-
+  var belly_button_metadata = '/Users/mac/Downloads/Bootcamp/Github/Tareas/Tarea15_WebChart/plotly-challenge/DataSets/belly_button_metadata.csv'
   // Use `d3.json` to fetch the metadata for a sample
     // Use d3 to select the panel with id of `#sample-metadata`
-
+  d3.select("#sample-metadata")
     // Use `.html("") to clear any existing metadata
 
     // Use `Object.entries` to add each key and value pair to the panel
